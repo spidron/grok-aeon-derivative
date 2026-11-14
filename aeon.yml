@@ -8,6 +8,7 @@ skills:
   skill-health: { enabled: true, schedule: "0 18 * * *" }
   skill-repair: { enabled: true, schedule: "reactive" }
   aeon-update: { enabled: true, schedule: "0 11 * * 1" }  # weekly sync with upstream
+  derivative-health: { enabled: true, schedule: "0 10 * * 1" }  # weekly Grok-focused health
 
   # Grok-focused research
   ai-agent-digest: { enabled: true, schedule: "0 8 * * 1", var: "AI agents Grok Aeon autonomous" }

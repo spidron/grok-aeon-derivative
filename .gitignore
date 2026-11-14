@@ -1,0 +1,8 @@
+# Aeon / Grok derivative
+node_modules/
+.env
+.env.*
+*.log
+.DS_Store
+output/
+.claude/

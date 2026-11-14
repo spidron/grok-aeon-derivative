@@ -4,11 +4,16 @@
 # Full skills list and docs: https://github.com/aeonfun/aeon
 
 skills:
-  # Example: enable a simple digest
-  # digest: { enabled: true, schedule: "0 8 * * *", var: "AI agents" }
+  # Self-maintenance & health (recommended)
+  skill-health: { enabled: true, schedule: "0 18 * * *" }
+  skill-repair: { enabled: true, schedule: "reactive" }
+  aeon-update: { enabled: true, schedule: "0 11 * * 1" }  # weekly sync with upstream
 
-  # Self-maintenance
-  # memory-flush: { enabled: false, schedule: "30 23 * * *" }
+  # Example content skills
+  # digest: { enabled: true, schedule: "0 8 * * *", var: "AI agents and Grok" }
+  # fetch-tweets: { enabled: false, schedule: "0 17 * * *", var: "topic:AI agents" }
+
+  # Add more from upstream catalog as needed.
 
 # Agent harness — Grok Build by default for this derivative
 harness: grok

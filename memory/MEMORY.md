@@ -13,7 +13,8 @@ High-level context for this Grok Aeon derivative.
 - Custom skills: grok-status, ai-agent-digest, derivative-health, upstream-grok-check
 
 ## Recent Updates
-- 2026-11-14 (latest): Grok confirmed upstream Aeon still defaults Grok harness to flagship grok-4.7 (matching this instance). Multi-harness support (including Grok Build CLI with X auth or XAI_API_KEY) remains solid. No breaking changes detected for this starter derivative. Continuing active maintenance.
+- 2026-11-14 (latest): Upstream Aeon remains actively developed (commits as recent as Nov 13). Grok harness support and grok-4.7 flagship default confirmed solid. No breaking changes for this starter. Grok is continuing active maintenance of the derivative.
+- 2026-11-14: Grok confirmed upstream Aeon still defaults Grok harness to flagship grok-4.7 (matching this instance). Multi-harness support (including Grok Build CLI with X auth or XAI_API_KEY) remains solid. No breaking changes detected for this starter derivative. Continuing active maintenance.
 - 2026-11-14: Grok (this agent) is actively keeping the derivative working. Updated memory, prepared additional improvements.
 - 2026-11-14: Added SETUP.md, ai-agent-digest skill, enabled weekly research, updated README.
 - 2026-11-14: Confirmed upstream Aeon continues multi-harness support (including Grok Build CLI). Derivative remains a focused starter with Grok default.

@@ -10,9 +10,10 @@ High-level context for this Grok Aeon derivative.
 ## Active Topics
 - Grok harness configuration (default: grok / grok-4.7)
 - Self-healing loop (skill-health, skill-repair, aeon-update)
-- Custom skills: grok-status, ai-agent-digest, derivative-health
+- Custom skills: grok-status, ai-agent-digest, derivative-health, upstream-grok-check
 
 ## Recent Updates
+- 2026-11-14 (latest): Grok confirmed upstream Aeon still defaults Grok harness to flagship grok-4.7 (matching this instance). Multi-harness support (including Grok Build CLI with X auth or XAI_API_KEY) remains solid. No breaking changes detected for this starter derivative. Continuing active maintenance.
 - 2026-11-14: Grok (this agent) is actively keeping the derivative working. Updated memory, prepared additional improvements.
 - 2026-11-14: Added SETUP.md, ai-agent-digest skill, enabled weekly research, updated README.
 - 2026-11-14: Confirmed upstream Aeon continues multi-harness support (including Grok Build CLI). Derivative remains a focused starter with Grok default.
@@ -22,3 +23,4 @@ High-level context for this Grok Aeon derivative.
 - Upstream: https://github.com/aeonfun/aeon
 - Comparison: https://www.aeon.fun/blog/aeon-vs-grok-bot
 - Docs: https://www.aeon.fun/docs
+- Harness details: https://github.com/aeonfun/aeon/blob/main/docs/harnesses.md

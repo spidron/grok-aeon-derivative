@@ -28,6 +28,7 @@ See **[SETUP.md](SETUP.md)** for a detailed guide.
 - `grok-status`: Health check focused on the Grok harness.
 - `ai-agent-digest`: Weekly research digest on AI agents, Grok, and Aeon.
 - `derivative-health`: Weekly assessment and maintenance recommendations for this Grok Aeon derivative.
+- `upstream-grok-check`: Weekly check of upstream Aeon for Grok harness changes and recommendations.
 
 See original docs: https://www.aeon.fun/docs and https://github.com/aeonfun/aeon
 

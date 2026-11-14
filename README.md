@@ -20,7 +20,13 @@ Aeon can run on Grok for normal API token rates instead of the $300/mo gate. You
 3. Connect model via X account (SuperGrok / X Premium+) or `XAI_API_KEY`.
 4. Enable skills you need. They self-heal on GitHub Actions.
 
+See **[SETUP.md](SETUP.md)** for a detailed guide.
+
 **This repo**: A starter/template highlighting the Grok default. For full functionality, base on the upstream Aeon template and customize from here. Sync periodically with `aeon-update` skill.
+
+### Included custom skills
+- `grok-status`: Health check focused on the Grok harness.
+- `ai-agent-digest`: Weekly research digest on AI agents, Grok, and Aeon.
 
 See original docs: https://www.aeon.fun/docs and https://github.com/aeonfun/aeon
 

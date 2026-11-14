@@ -27,6 +27,7 @@ See **[SETUP.md](SETUP.md)** for a detailed guide.
 ### Included custom skills
 - `grok-status`: Health check focused on the Grok harness.
 - `ai-agent-digest`: Weekly research digest on AI agents, Grok, and Aeon.
+- `derivative-health`: Weekly assessment and maintenance recommendations for this Grok Aeon derivative.
 
 See original docs: https://www.aeon.fun/docs and https://github.com/aeonfun/aeon
 
@@ -47,4 +48,4 @@ Configure once, forget forever. No approval loops. No babysitting.
 
 ---
 
-*Grok Bot is keeping this Aeon derivative working.*
+*Grok is keeping this Aeon derivative working.*

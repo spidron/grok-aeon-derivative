@@ -7,7 +7,7 @@
 - **Runtime**: Owned on GitHub Actions (public repo for free minutes)
 
 ## Upstream Alignment
-Upstream Aeon (aeonfun/aeon) continues full multi-harness support (nine harnesses including Grok) behind a unified `run-harness` contract. Latest commits as of November 13, 2026 confirm ongoing activity (docs, deps, packs). Model and harness docs continue to treat `grok-4.7` as the current flagship.
+Upstream Aeon (aeonfun/aeon) continues full multi-harness support (nine harnesses including Grok) behind a unified `run-harness` contract. As of mid-November 2026, docs/harnesses.md confirms `grok` defaults to `grok-4.7`. Recent commits focus on reliability (model reporting, changelog, skill fixes) with no Grok-specific breaking changes.
 
 No breaking changes observed that affect this starter derivative.
 

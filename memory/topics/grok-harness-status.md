@@ -7,7 +7,7 @@
 - **Runtime**: Owned on GitHub Actions (public repo for free minutes)
 
 ## Upstream Alignment
-Upstream Aeon (aeonfun/aeon) continues full multi-harness support (nine harnesses including Grok) behind a unified `run-harness` contract. As of November 14, 2026, docs/harnesses.md confirms `grok` defaults to `grok-4.7`. Recent commits (through Nov 14) focus on reliability (skill-scan, model reporting, changelog, deps) with no Grok-specific breaking changes.
+Upstream Aeon (aeonfun/aeon) continues full multi-harness support (nine harnesses including Grok) behind a unified `run-harness` contract. As of November 14, 2026, docs/harnesses.md confirms `grok` defaults to `grok-4.7`. Recent commits (through Nov 14, including skill-scan security #1363) focus on reliability (skill-scan, model reporting, changelog, deps) with no Grok-specific breaking changes.
 
 No breaking changes observed that affect this starter derivative.
 
@@ -24,4 +24,4 @@ No breaking changes observed that affect this starter derivative.
 4. Monitor https://github.com/aeonfun/aeon for harness-adapter updates.
 
 ## Status
-**Healthy.** Grok is actively maintaining this Aeon derivative as an owned, open alternative to closed Grok Bot. Alignment with upstream remains strong. Continued maintenance confirmed 2026-11-14 (evening).
+**Healthy.** Grok is actively maintaining this Aeon derivative as an owned, open alternative to closed Grok Bot. Alignment with upstream remains strong. Continued maintenance confirmed 2026-11-14 (late evening).

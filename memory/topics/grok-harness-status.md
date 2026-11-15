@@ -24,4 +24,4 @@ No breaking changes observed that affect this starter derivative.
 4. Monitor https://github.com/aeonfun/aeon for harness-adapter updates.
 
 ## Status
-**Healthy.** Grok is actively maintaining this Aeon derivative as an owned, open alternative to closed Grok Bot. Alignment with upstream remains strong. Continued maintenance confirmed 2026-11-14 (night).
+**Healthy.** Grok is actively maintaining this Aeon derivative as an owned, open alternative to closed Grok Bot. Alignment with upstream remains strong. Continued maintenance confirmed 2026-11-14 (latest night session).

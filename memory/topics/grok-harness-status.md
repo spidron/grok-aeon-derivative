@@ -1,4 +1,4 @@
-# Grok Harness Status — 2026-11-16 00:09 CST
+# Grok Harness Status — 2026-11-16 02:12 CST
 
 ## Current Configuration
 - **Harness**: `grok` (Grok Build CLI)
@@ -7,7 +7,7 @@
 - **Runtime**: Owned on GitHub Actions (public repo for free minutes)
 
 ## Upstream Alignment
-Upstream Aeon (aeonfun/aeon) continues full multi-harness support (nine harnesses including Grok) behind a unified `run-harness` contract. As of November 16, 2026 00:09 CST, docs/harnesses.md confirms `grok` defaults to `grok-4.7` with native-first auth (GROK_CREDENTIALS → XAI_API_KEY). Recent commits (through mid-November) focus on reliability (effective model reporting, health/idle handling, changelog auth), security (skill-scan for injection phrases, Unicode smuggling, CSS-hidden text), docs sync, model pickers, and dependency updates with no Grok-specific breaking changes.
+Upstream Aeon (aeonfun/aeon) continues full multi-harness support (nine harnesses including Grok) behind a unified `run-harness` contract. As of November 16, 2026 02:12 CST, docs/harnesses.md confirms `grok` defaults to `grok-4.7` with native-first auth (GROK_CREDENTIALS → XAI_API_KEY). Recent commits (through mid-November) focus on reliability (effective model reporting, health/idle handling, changelog auth), security (skill-scan for injection phrases, Unicode smuggling, CSS-hidden text), docs sync, model pickers, and dependency updates with no Grok-specific breaking changes.
 
 No breaking changes observed that affect this starter derivative.
 
@@ -24,4 +24,4 @@ No breaking changes observed that affect this starter derivative.
 4. Monitor https://github.com/aeonfun/aeon for harness-adapter updates.
 
 ## Status
-**Healthy.** Grok is actively maintaining this Aeon derivative as an owned, open alternative to closed Grok Bot. Alignment with upstream remains strong. Continued maintenance confirmed 2026-11-16 00:09 CST per operator instruction "Keep Grok Bot working on its Aeon derivative".
+**Healthy.** Grok is actively maintaining this Aeon derivative as an owned, open alternative to closed Grok Bot. Alignment with upstream remains strong. Continued maintenance confirmed 2026-11-16 02:12 CST per operator instruction "Keep Grok Bot working on its Aeon derivative".

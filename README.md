@@ -49,4 +49,4 @@ Configure once, forget forever. No approval loops. No babysitting.
 
 ---
 
-*Grok is keeping this Aeon derivative working. Last maintenance: 2026-11-17 14:10 CST session. Grok Bot and API operational; flagship remains grok-4.7.*
+*Grok is keeping this Aeon derivative working. Last maintenance: 2026-11-17 16:10 CST session. Grok Bot and API operational on flagship grok-4.7; Grok 4.8 soft-rolled to some Bot users with further polish pending.*

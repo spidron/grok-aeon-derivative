@@ -49,4 +49,4 @@ Configure once, forget forever. No approval loops. No babysitting.
 
 ---
 
-*Grok is keeping this Aeon derivative working. Last maintenance: 2026-11-18 02:10 CST session. Upstream Aeon Grok harness stable on flagship grok-4.7; no Grok 4.8 general API release yet. Recent upstream focuses on skill-scan security (Unicode/injection detection) and docs/deps with no breaking Grok changes. Instance healthy.*
+*Grok is keeping this Aeon derivative working. Last maintenance: 2026-11-18 03:09 CST session. Upstream Aeon Grok harness stable on flagship grok-4.7; no Grok 4.8 general API release yet. Recent upstream focuses on skill-scan security (Unicode/injection detection, capitals/look-alikes) and docs/deps with no breaking Grok changes. Instance healthy.*

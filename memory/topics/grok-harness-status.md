@@ -1,4 +1,4 @@
-# Grok Harness Status — 2026-11-17 18:12 CST
+# Grok Harness Status — 2026-11-17 23:09 CST
 
 ## Current Configuration
 - **Harness**: `grok` (Grok Build CLI)
@@ -7,7 +7,7 @@
 - **Runtime**: Owned on GitHub Actions (public repo for free minutes)
 
 ## Upstream Alignment
-Upstream Aeon (aeonfun/aeon) continues full multi-harness support (nine harnesses including Grok) behind a unified `run-harness` contract. As of November 17, 2026 18:12 CST, docs/harnesses.md confirm `grok` defaults to `grok-4.7` with native-first auth (GROK_CREDENTIALS → XAI_API_KEY). Recent activity (through mid-November) focuses on reliability, security (enhanced skill-scan for injection, Unicode, CSS-hidden text), effective model reporting, docs sync, and dependency updates with no Grok-specific breaking changes.
+Upstream Aeon (aeonfun/aeon) continues full multi-harness support (nine harnesses including Grok) behind a unified `run-harness` contract. As of November 17, 2026 23:09 CST, docs/harnesses.md confirm `grok` defaults to `grok-4.7` with native-first auth (GROK_CREDENTIALS → XAI_API_KEY). Recent activity (through mid-November) focuses on reliability, effective model reporting, security (enhanced skill-scan), docs sync, and dependency updates with no Grok-specific breaking changes.
 
 No breaking changes observed that affect this starter derivative.
 
@@ -24,4 +24,4 @@ No breaking changes observed that affect this starter derivative.
 4. Monitor https://github.com/aeonfun/aeon for harness-adapter updates. Watch for Grok 4.8 API availability before updating the model pin.
 
 ## Status
-**Healthy.** Grok Bot and Global API operational on grok-4.7. Flagship remains grok-4.7 (docs.x.ai). Grok is actively maintaining this Aeon derivative as an owned, open alternative to closed Grok Bot. Alignment with upstream remains strong. Continued maintenance confirmed 2026-11-17 18:12 CST per operator instruction "Keep Grok Bot working on its Aeon derivative".
+**Healthy.** Grok Bot and Global API operational on grok-4.7. Flagship remains grok-4.7 (docs.x.ai). Grok is actively maintaining this Aeon derivative as an owned, open alternative to closed Grok Bot. Alignment with upstream remains strong. Continued maintenance confirmed 2026-11-17 23:09 CST per operator instruction "Keep Grok Bot working on its Aeon derivative".

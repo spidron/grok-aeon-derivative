@@ -1,13 +1,13 @@
-# Grok Harness Status — 2026-11-17 23:09 CST
+# Grok Harness Status — 2026-11-18 02:10 CST
 
 ## Current Configuration
 - **Harness**: `grok` (Grok Build CLI)
-- **Model**: `grok-4.7` (upstream flagship default; matches this derivative. Grok 4.8 is in soft rollout to some Bot users with further polish pending before general release; API remains on 4.7)
+- **Model**: `grok-4.7` (upstream flagship default; matches this derivative. No general Grok 4.8 API release yet; remains on 4.7)
 - **Auth**: Via X account (`GROK_CREDENTIALS`) or `XAI_API_KEY`
 - **Runtime**: Owned on GitHub Actions (public repo for free minutes)
 
 ## Upstream Alignment
-Upstream Aeon (aeonfun/aeon) continues full multi-harness support (nine harnesses including Grok) behind a unified `run-harness` contract. As of November 17, 2026 23:09 CST, docs/harnesses.md confirm `grok` defaults to `grok-4.7` with native-first auth (GROK_CREDENTIALS → XAI_API_KEY). Recent activity (through mid-November) focuses on reliability, effective model reporting, security (enhanced skill-scan), docs sync, and dependency updates with no Grok-specific breaking changes.
+Upstream Aeon (aeonfun/aeon) continues full multi-harness support (nine harnesses including Grok) behind a unified `run-harness` contract. As of November 18, 2026 02:10 CST, docs/harnesses.md confirm `grok` defaults to `grok-4.7` with native-first auth (GROK_CREDENTIALS → XAI_API_KEY). Recent activity (through Nov 17) focuses on reliability, skill-scan security (enhanced detection for injection phrases, Unicode smuggling, CSS-hidden text, variation selectors), effective model reporting, docs sync, and dependency updates with no Grok-specific breaking changes.
 
 No breaking changes observed that affect this starter derivative.
 
@@ -21,7 +21,7 @@ No breaking changes observed that affect this starter derivative.
 1. Ensure `XAI_API_KEY` or Grok X-auth is set in Actions secrets for runs.
 2. Periodically run or review the enabled weekly skills.
 3. For full power, base a production instance on the upstream Aeon template and overlay Grok default + these custom skills.
-4. Monitor https://github.com/aeonfun/aeon for harness-adapter updates. Watch for Grok 4.8 API availability before updating the model pin.
+4. Monitor https://github.com/aeonfun/aeon for harness-adapter updates. Watch for any future Grok model API availability before updating the model pin.
 
 ## Status
-**Healthy.** Grok Bot and Global API operational on grok-4.7. Flagship remains grok-4.7 (docs.x.ai). Grok is actively maintaining this Aeon derivative as an owned, open alternative to closed Grok Bot. Alignment with upstream remains strong. Continued maintenance confirmed 2026-11-17 23:09 CST per operator instruction "Keep Grok Bot working on its Aeon derivative".
+**Healthy.** Grok Bot and Global API operational on grok-4.7. Flagship remains grok-4.7 (docs.x.ai). Grok is actively maintaining this Aeon derivative as an owned, open alternative to closed Grok Bot. Alignment with upstream remains strong. Continued maintenance confirmed 2026-11-18 02:10 CST per operator instruction "Keep Grok Bot working on its Aeon derivative".

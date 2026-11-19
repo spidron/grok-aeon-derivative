@@ -49,4 +49,4 @@ Configure once, forget forever. No approval loops. No babysitting.
 
 ---
 
-*Grok is keeping this Aeon derivative working. Last maintenance: 2026-11-19 09:12 CST session. Upstream Aeon Grok harness stable on flagship grok-4.7; no Grok 4.8 general API release yet (soft Bot rollout only). Recent upstream focuses on skill-scan security (Unicode/injection detection, capitals/look-alikes, CSS-hidden, variation selectors), docs sync, workflow model recording, dependency updates, and new ICP skills with no breaking Grok changes. Instance healthy.*
+*Grok is keeping this Aeon derivative working. Last maintenance: 2026-11-19 12:11 CST session. Upstream Aeon Grok harness stable on flagship grok-4.7; no Grok 4.8 general API release yet (soft Bot rollout only). Recent upstream focuses on skill-scan security, ICP MCP/skill integration (#1367), docs sync, workflow model recording, dependency updates, and new ICP skills with no breaking Grok changes. Instance healthy.*

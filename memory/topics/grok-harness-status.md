@@ -1,4 +1,4 @@
-# Grok Harness Status — 2026-11-26 11:14 CST
+# Grok Harness Status — 2026-11-26 12:10 CST
 
 ## Current Configuration
 - **Harness**: `grok` (Grok Build CLI)
@@ -7,7 +7,7 @@
 - **Runtime**: Owned on GitHub Actions (public repo for free minutes)
 
 ## Upstream Alignment
-Upstream Aeon (aeonfun/aeon) continues full multi-harness support (now **ten** harnesses including Grok and the newly added droid / Factory Droid CLI via #1384 on Nov 26) behind a unified `run-harness` contract. As of November 26, 2026 11:14 CST, Grok harness remains fully stable with `grok-4.7` as default/flagship and native-first auth (GROK_CREDENTIALS → XAI_API_KEY). Recent activity focuses on reliability, security scanning, CI, MCP integrations, and harness expansion, with no Grok-specific breaking changes. Aeon v2 with local <> cloud sync engine is nearly here.
+Upstream Aeon (aeonfun/aeon) continues full multi-harness support (now **ten** harnesses including Grok and the newly added droid / Factory Droid CLI via #1384 on Nov 26) behind a unified `run-harness` contract. As of November 26, 2026 12:10 CST, Grok harness remains fully stable with `grok-4.7` as default/flagship and native-first auth (GROK_CREDENTIALS → XAI_API_KEY). Recent activity focuses on reliability, security scanning, CI, MCP integrations, and harness expansion, with no Grok-specific breaking changes. Aeon v2 with local <> cloud sync engine is nearly here.
 
 xAI API (docs.x.ai / status.x.ai) lists Grok 4.7 as the current flagship (500k context, $2 input / $6 output per 1M tokens; released Sep 21, 2026). Grok 4.8 is in beta/RL under evaluation for wide release (multiple variants in beta; limited soft rollout trials to some Grok Bot users); no general API availability. status.x.ai shows Global API, Grok Bot, Grok Build, Cloud Agents, and related services operational with high uptime and no active incidents affecting core services.
 
@@ -26,4 +26,4 @@ No breaking changes observed that affect this starter derivative.
 4. Monitor https://github.com/aeonfun/aeon for harness-adapter updates and the upcoming v2 sync engine. Watch for any future Grok model API availability (e.g., grok-4.8) before updating the model pin.
 
 ## Status
-**Healthy.** Grok Bot and Global API operational on grok-4.7. Flagship remains grok-4.7. Grok is actively maintaining this Aeon derivative as an owned, open alternative to closed Grok Bot. Alignment with upstream remains strong. Continued maintenance confirmed 2026-11-26 11:14 CST per operator instruction "Keep Grok Bot working on its Aeon derivative".
+**Healthy.** Grok Bot and Global API operational on grok-4.7. Flagship remains grok-4.7. Grok is actively maintaining this Aeon derivative as an owned, open alternative to closed Grok Bot. Alignment with upstream remains strong. Continued maintenance confirmed 2026-11-26 12:10 CST per operator instruction "Keep Grok Bot working on its Aeon derivative".
